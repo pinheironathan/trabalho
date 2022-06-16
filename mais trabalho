@@ -1,0 +1,110 @@
+
+
+classe pública Endereco {
+
+	private String cep,tipoLogradouro,logradouro,complemento,bairro,cidade,estado;
+	
+	
+	longitude dupla privada, latitude;
+	
+
+	public Endereco() {
+
+	
+	}
+	public Endereco(String cep, String tipoLogradouro, String logradouro, String complemento, String bairro,
+			String cidade, String estado, longitude dupla, latitude dupla) {
+		this.cep = cep;
+		this.tipoLogradouro = tipoLogradouro;
+		this.logradouro = logradouro;
+		this.complemento = complemento;
+		this.bairro = bairro;
+		this.cidade = cidade;
+		este.estado = estado;
+		this.longitude = longitude;
+		this.latitude = latitude;
+	}
+
+	public Endereco(String cep) {
+		this.cep = cep;
+	}
+
+	public String getCep() {
+		retorno cep;
+	}
+
+	public void setCep(String cep) {
+		this.cep = cep;
+	}
+
+	public String getTipoLogradouro() {
+		retornar tipoLogradouro;
+	}
+
+	public void setTipoLogradouro(String tipoLogradouro) {
+		this.tipoLogradouro = tipoLogradouro;
+	}
+
+	public String getLogradouro() {
+		voltar logradouro;
+	}
+
+	public void setLogradouro(String logradouro) {
+		this.logradouro = logradouro;
+	}
+
+	public String getComplemento() {
+		retorno complemento;
+	}
+
+	public void setComplemento(String complemento) {
+		this.complemento = complemento;
+	}
+
+	public String getBairro() {
+		bairro de retorno;
+	}
+
+	public void setBairro(String bairro) {
+		this.bairro = bairro;
+	}
+
+	public String getCidade() {
+		retornar cidade;
+	}
+
+	public void setCidade(String cidade) {
+		this.cidade = cidade;
+	}
+
+	public String getEstado() {
+		retornar estado;
+	}
+
+	public void setEstado(String estado) {
+		este.estado = estado;
+	}
+
+	public double getLongitude() {
+		retornar longitude;
+	}
+
+	public void setLongitude(double longitude) {
+		this.longitude = longitude;
+	}
+
+	public double getLatitude() {
+		latitude de retorno;
+	}
+
+	public void setLatitude(double latitude) {
+		this.latitude = latitude;
+	}
+
+	@Sobrepor
+	public String toString() {
+		return this.tipoLogradouro + " " + this.logradouro + " - " + this.bairro + ", " + this.cidade + " - "
+				+ this.estado + ", " + this.cep;
+	}
+
+}
